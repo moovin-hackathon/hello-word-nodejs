@@ -6,3 +6,10 @@ install:
   - npm install
 script:
   - npm test
+
+deploy:
+  provider: heroku
+  api_key:
+    secure: TNQRxu+35zyznnHnx50qcKOUX2uwdwdfSMT5wdEPrfqm9ygri9+k9ioCNKqzn7J81OavWJq1xIK7pnibq3RqQ7/sOttqIvBPHoHzKW5A4sVb5rmRWrqSNmW59Bhx0CNnH73cf39Xl0t5SqNWOti6w2gpkPByUng4AaFIHX8jn+tpW6u1fYI+ZiPYslZtbo44UYLhkRMYPfdaB3dPEHYgGBmq7Fv7V3zjsEwRNH4AJY36X+po1tv1R4AYLkgIDCM+trGi40oa6YcwIeEJZAzEaOGipeGLG+WCwiQEHmy9tmDBLof0MpF/RmGcx8VbS1DxdhNPcCLAiEs8/p47/AifU/PKdM9rf7axkyYWlCk2B9ChzVankncKZ3zPvSfoUpioFwubonf0XRVKddgCUNtzqJn0DcppnFs6S9GRepbvf/amD/adqOCRUDf0iUn1UYMc45Mg3FDD/YvN/JclcGk6yvEFihiwu/UNj5+j0meLEXWS0QcRnl7Z4TXz8TJrSgCj6jwPvSYwyTi1FGgWhh4kzIDpoqODUMDxE9lJmM8pdz0oGmwwAVbRHiRIrs/hLUOlbWW4vspcOAlKuJlLt1WVPj3SGlyNZmkV/Rl2sdD1J8k3ELzOewLnHlCF/yqyB0wxnsaDbPUpx8MT1zNjAFhWFns5M0poJd9XcyVMog5n5go=
+  app:
+    master: moovin-hackathon-hw-nodejs

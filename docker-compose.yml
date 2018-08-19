@@ -1,10 +1,10 @@
 version: '2'
 services:
   web:
-    build: .
+    image: node:8.9
     volumes:   
       - .:/app  
     working_dir: /app 
     ports:
       - "8080:8080"
-    command: node server.js
+    command: npm start
